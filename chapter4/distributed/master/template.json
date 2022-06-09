@@ -5,7 +5,7 @@
         "aws_profile": "default",
         "source_ami" : "ami-0ca285d4c2cda3300",
         "instance_type": "t2.micro",
-        "ssh_key": "/home/rahulzar079/.ssh/id.rsa"
+        "ssh_key": "/home/rahulzar079/.ssh/id_rsa"
     },
     "builders" : [
         {

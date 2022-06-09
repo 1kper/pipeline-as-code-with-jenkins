@@ -1,10 +1,63 @@
 {
     "variables" : {
-        "region" : "AWS REGION",
-        "aws_profile": "AWS PROFILE",
-        "source_ami" : "AMAZON LINUX AMI 2 ID",
-        "instance_type": "INSTANCE TYPE",
-        "ssh_key": "PRIVATE SSH KEY"
+        
+        "region" : "us-west-2",
+        "aws_profile": "default",
+        "source_ami" : "ami-0ca285d4c2cda3300",
+        "instance_type": "t2.micro",
+        "ssh_key": "-----BEGIN OPENSSH PRIVATE KEY-----
+
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcn
+
+NhAAAAAwEAAQAAAQEAsoA3PE/NYMCLzaeiCU/bdq50myPbUdXqVgggmB1jALbUMvSSKPVd
+
+t94VUKaksnFYZ4zZmnfdYR0jIQ2TBY/GzYpTLWf5oBmJ0kzyOt3e1YRKpAvfsDopd+MVoc
+
+HCb0yQxvnYVSUo6lGMiD3PchHRCZher+CiPC6IbGR+TDkBYxX+s6X1ktZOujUQ4uscTYGi
+
+3HkoMwxBy1gcY2ZYCexT2aJo1m4i5RX+ALG327hhvPxY2WG0s9gKemrdmGDJstRGttf99E
+
+BR14Z1XboBdKNgWGn3kzvRUR+XhS5hbzSawibSc9tHFA8t4yfp0iuc0lp4hhZe6NOZUhtp
+
+2l3j7ybrVQAAA9BGvU4qRr1OKgAAAAdzc2gtcnNhAAABAQCygDc8T81gwIvNp6IJT9t2rn
+
+SbI9tR1epWCCCYHWMAttQy9JIo9V233hVQpqSycVhnjNmad91hHSMhDZMFj8bNilMtZ/mg
+
+GYnSTPI63d7VhEqkC9+wOil34xWhwcJvTJDG+dhVJSjqUYyIPc9yEdEJmF6v4KI8LohsZH
+
+5MOQFjFf6zpfWS1k66NRDi6xxNgaLceSgzDEHLWBxjZlgJ7FPZomjWbiLlFf4AsbfbuGG8
+
+/FjZYbSz2Ap6at2YYMmy1Ea21/30QFHXhnVdugF0o2BYafeTO9FRH5eFLmFvNJrCJtJz20
+
+cUDy3jJ+nSK5zSWniGFl7o05lSG2naXePvJutVAAAAAwEAAQAAAQAfxB+QVSdYk4uNssps
+
+W9DToyJPRadPPgFxBAtA5uHqi57h3pJwRZJDGXuzmaRvuSoha3iCO9ii4ruQs0i50adwhr
+
+BcwUc0TbcwPM9S2I9CckOSRCavxvoAQuJjogbHJdoR/v6X0IAiixa2XEGhrDgGPB6FsDVO
+
+/nz6xTuQtwhfKItYcZBDtmaRc2A1YZ6fGE5lhJNQwRzDPorWnf2KsO7YB3xhV5chONSV+5
+
+qdNCAEOyz4vPuRuELlnk3+F2zluIFP9aTs+OotMFZ8s2HpbWP6pFZUkE/61PgM6AZXi8Oo
+
+zO2s+aTqyPsAEKxHghunS0crvid+yazM3fKdV6zwGOShAAAAgQCbZV8dsSusHOcOlpOhNZ
+
+xDoXrfcsKtsAepBCX6QTzyDaMzlyYMvKldQuc7WEavqDIVXgEMtbmqby20paASPMj2VEfv
+
+X1fT/pnXlfTUcjghvUJmYgNeDvf+llCiaOyfaNTUDSKBv9Iyv+c7VYE4AmGPDCLUXV4PdQ
+
+AnYdF8jTsxbAAAAIEA7tqLF4itqBsKkN7JPGwUt8sDkXELzVCQ1qDFC9gdq1NCQQQM3Ogv
+
+gcMSg2wnRkE8EazHmc3ptTF88YX2+jYBugP2xx6ATibrdpZaNnXVq7vrQYI1U2gwHDRgWl
+
++R6ldMLSq4Y+aNR8/wDRMyrN10+LBZcmz0fTPX/M0fLPMl+W0AAACBAL9Qjrl8vm4J3XEj
+
+uMdvT23OB8GH2PS/A3T4f5+LdirGjKkhr2HYo+TbevmBQ5kSdDIatsPDoJLVqrLXGI2A39
+
+QXUqGQJqBSMDHggnAr4bb7LeSO6kClHKKK53Y++pJKOU3zIU80fVweruNkjYibvPKs8r1F
+
+brE2BL+1STNbUDCJAAAAFHJhaHVsemFyMDc5QGxhYm91cmR5AQIDBAUG
+
+-----END OPENSSH PRIVATE KEY-----"
     },
     "builders" : [
         {

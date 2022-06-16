@@ -7,7 +7,7 @@ resource "aws_security_group" "swarm_sg" {
     from_port       = 22
     to_port         = 22
     protocol        = "tcp"
-    security_groups = [var.bastion_sg_id, var.jenkins_sg_id]
+    security_groups = [var.bastion_sg_id]
   }
 
   ingress {

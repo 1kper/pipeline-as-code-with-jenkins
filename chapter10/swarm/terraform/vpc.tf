@@ -112,3 +112,20 @@ resource "aws_route_table_association" "public" {
   subnet_id      = element(aws_subnet.public_subnets.*.id, count.index)
   route_table_id = aws_route_table.public_rt.id
 }
+  
+  
+  
+  
+  resource "aws_vpc_peering_connection" "foo" {
+  peer_owner_id = 635154829813
+  peer_vpc_id   = vpc-0a2761d35e2b0f602
+  vpc_id        = aws_vpc.sandbox.id
+}
+  
+  
+  
+  
+  
+  
+  
+  

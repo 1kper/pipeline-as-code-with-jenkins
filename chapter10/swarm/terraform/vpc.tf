@@ -117,8 +117,8 @@ resource "aws_route_table_association" "public" {
   
   
   resource "aws_vpc_peering_connection" "foo" {
-  peer_owner_id = var.peer.vpc.owner.id
-  peer_vpc_id   = var.peer.vpc.id
+  peer_owner_id = var.peer_vpc_owner_id
+  peer_vpc_id   = var.peer_vpc_id
 
   vpc_id        = aws_vpc.sandbox.id
 }
